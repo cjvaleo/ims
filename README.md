@@ -8,15 +8,15 @@ Plain HTML with no build step. Upload the files as-is and it works.
 | File | What it is |
 | --- | --- |
 | `index.html` | The whole website |
-| `images/` | Job photos used on the site |
-| `logo/` | IMS patch logo (green and light versions) |
+| `*.jpg` | Job photos used on the site |
+| `favicon.svg` | Browser tab icon (the logo is built into index.html) |
 | `CNAME` | Tells GitHub Pages the domain is www.imslandscaping.com |
 | `robots.txt`, `sitemap.xml` | Help Google find the site |
 
 ## Put it on GitHub
 
 1. Go to github.com, click **New repository**, name it `ims-exteriors-site`, make it **Public**, and click **Create repository**.
-2. Click **uploading an existing file**. Drag in everything from this folder (the `images` and `logo` folders too), then click **Commit changes**.
+2. Click **uploading an existing file**. Drag in every file from this folder. There are no subfolders, then click **Commit changes**.
 3. Go to **Settings → Pages**. Under "Branch," pick `main` and `/ (root)`, then click **Save**.
 4. Wait about a minute. The site shows up at `https://YOUR-USERNAME.github.io/ims-exteriors-site/`.
 
